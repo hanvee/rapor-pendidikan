@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border: 1px solid rgba(160, 170, 173);
+}
+
+/* Login  */
+.divider {
+    border: 0;
+    border-top: 5px solid rgba(0, 0, 255, 1);
+    width: 75px;
+}
+
+.divider-horizontal {
+    border: 0;
+    border-top: 5px solid rgba(0, 0, 255, 1);
+    width: 130px;
+    margin: auto;
+}
+
+/* Nav-bar */
+.navbar {
+    padding: 18px;
+}
+
+.big-heading {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+/* Header Section */
+#header {
+    margin: 0 0 4rem 0;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+.banner-content {
+    padding: 5rem 0;
+}
+
+
+/* Cities Section */
+.cities-card {
+    padding: 60px 0;
+}
+
+.card-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/jakartabarat.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border-radius: 18px;
+}
+
+.card-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/jakartautara.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border-radius: 18px;
+}
+
+.card-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/jakartapusat.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border-radius: 18px;
+}
+
+.card-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/jakartaselatan.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border-radius: 18px;
+}
+
+
+/* Features Section*/
+#features {
+    margin: 0 0 2rem 0;
+}
+
+.features-image {
+    border-radius: 18px;
+    height: 300px;
+    width: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/report.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.features-content 
+{
+   padding: 2rem 4rem; 
+
+}
+
+
+/* Footer */
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (max-width: 900px) {
+    .banner {
+        text-align: center;
+    }
+
+    .big-heading {
+        font-size: 2rem;
+    }
+
+    .features-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+        text-align: center;
+    }
+
+    .big-heading {
+        font-size: 1.5rem;
+    }
+
+    .features-content {
+        text-align: center;
+    }
+
+}
+
+
+
